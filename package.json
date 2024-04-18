@@ -1,0 +1,8 @@
+{
+	"name": "performance_demo",
+	"version": "1.0.0",
+	"license": "MIT",
+	"description": "A NodeJS server performance measurement demo",
+	"repository": "https://github.com/Nello-Moreira/performance_demo",
+	"author": "https://github.com/Nello-Moreira"
+}
