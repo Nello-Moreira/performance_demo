@@ -4,5 +4,11 @@
 	"license": "MIT",
 	"description": "A NodeJS server performance measurement demo",
 	"repository": "https://github.com/Nello-Moreira/performance_demo",
-	"author": "https://github.com/Nello-Moreira"
+	"author": "https://github.com/Nello-Moreira",
+	"scripts": {
+		"build": "./docker_cli.sh build",
+		"start": "./docker_cli.sh run",
+		"stop": "./docker_cli.sh kill",
+		"stats": "./docker_cli.sh stats"
+	}
 }

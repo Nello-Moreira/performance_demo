@@ -1,0 +1,23 @@
+services:
+  server:
+    container_name: performance_demo_server
+    build:
+      context: ../
+      dockerfile: ./docker/server/Dockerfile
+    networks:
+      - performance-demo-net
+    ports:
+      - '8080:8080'
+    deploy:
+      resources:
+        limits:
+          memory: 512m
+          cpus: '1.0'
+        reservations:
+          memory: 512m
+          cpus: '1.0'
+    environment:
+      PORT: 8080
+
+networks:
+  performance-demo-net:
