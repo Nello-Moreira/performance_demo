@@ -1,0 +1,22 @@
+config:
+  target: http://server:{{ $env.PORT }}
+  phases:
+    - duration: 30
+      arrivalRate: 1
+      rampTo: 5
+      name: Warm up phase
+
+    - duration: 60
+      arrivalRate: 5
+      rampTo: 10
+      name: Ramp up load
+
+    - duration: 60
+      arrivalRate: 10
+      rampTo: 30
+      name: Spike phase
+
+scenarios:
+  - flow:
+      - get:
+          url: '/fibo-loop?n={{ $env.FIBONACCI_SEQUENCE_NUMBER }}'
