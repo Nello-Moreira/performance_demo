@@ -1,0 +1,1569 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 1740,
+      "vusers.created": 1740,
+      "http.requests": 1740,
+      "http.codes.200": 961,
+      "http.responses": 961,
+      "http.downloaded_bytes": 17298,
+      "plugins.metrics-by-endpoint./fibo-recur.codes.200": 961,
+      "vusers.failed": 779,
+      "vusers.completed": 961,
+      "plugins.metrics-by-endpoint./fibo-recur.errors.ETIMEDOUT": 779,
+      "errors.ETIMEDOUT": 779
+    },
+    "rates": {
+      "http.request_rate": 14
+    },
+    "firstCounterAt": 1713793411391,
+    "firstHistogramAt": 1713793411438,
+    "lastCounterAt": 1713793570788,
+    "lastHistogramAt": 1713793539542,
+    "firstMetricAt": 1713793411391,
+    "lastMetricAt": 1713793570788,
+    "period": 1713793570000,
+    "summaries": {
+      "http.response_time": {
+        "min": 33,
+        "max": 9975,
+        "count": 961,
+        "mean": 1733.3,
+        "p50": 314.2,
+        "median": 314.2,
+        "p75": 2231,
+        "p90": 6439.7,
+        "p95": 8186.6,
+        "p99": 9607.1,
+        "p999": 9999.2
+      },
+      "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+        "min": 33,
+        "max": 9975,
+        "count": 961,
+        "mean": 1733.3,
+        "p50": 314.2,
+        "median": 314.2,
+        "p75": 2231,
+        "p90": 6439.7,
+        "p95": 8186.6,
+        "p99": 9607.1,
+        "p999": 9999.2
+      },
+      "vusers.session_length": {
+        "min": 48.5,
+        "max": 9976.8,
+        "count": 961,
+        "mean": 1735.2,
+        "p50": 314.2,
+        "median": 314.2,
+        "p75": 2231,
+        "p90": 6439.7,
+        "p95": 8186.6,
+        "p99": 9607.1,
+        "p999": 9999.2
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 33,
+        "max": 9975,
+        "count": 961,
+        "mean": 1733.3,
+        "p50": 314.2,
+        "median": 314.2,
+        "p75": 2231,
+        "p90": 6439.7,
+        "p95": 8186.6,
+        "p99": 9607.1,
+        "p999": 9999.2
+      },
+      "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+        "min": 33,
+        "max": 9975,
+        "count": 961,
+        "mean": 1733.3,
+        "p50": 314.2,
+        "median": 314.2,
+        "p75": 2231,
+        "p90": 6439.7,
+        "p95": 8186.6,
+        "p99": 9607.1,
+        "p999": 9999.2
+      },
+      "vusers.session_length": {
+        "min": 48.5,
+        "max": 9976.8,
+        "count": 961,
+        "mean": 1735.2,
+        "p50": 314.2,
+        "median": 314.2,
+        "p75": 2231,
+        "p90": 6439.7,
+        "p95": 8186.6,
+        "p99": 9607.1,
+        "p999": 9999.2
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 14,
+        "vusers.created": 14,
+        "http.requests": 14,
+        "http.codes.200": 14,
+        "http.responses": 14,
+        "http.downloaded_bytes": 252,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 14,
+        "vusers.failed": 0,
+        "vusers.completed": 14
+      },
+      "rates": {
+        "http.request_rate": 2
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793411391,
+      "firstHistogramAt": 1713793411438,
+      "lastCounterAt": 1713793419595,
+      "lastHistogramAt": 1713793419595,
+      "firstMetricAt": 1713793411391,
+      "lastMetricAt": 1713793419595,
+      "period": "1713793410000",
+      "summaries": {
+        "http.response_time": {
+          "min": 33,
+          "max": 160,
+          "count": 14,
+          "mean": 117.9,
+          "p50": 113.3,
+          "median": 113.3,
+          "p75": 141.2,
+          "p90": 147,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 33,
+          "max": 160,
+          "count": 14,
+          "mean": 117.9,
+          "p50": 113.3,
+          "median": 113.3,
+          "p75": 141.2,
+          "p90": 147,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "vusers.session_length": {
+          "min": 48.5,
+          "max": 165,
+          "count": 14,
+          "mean": 124.2,
+          "p50": 120.3,
+          "median": 120.3,
+          "p75": 141.2,
+          "p90": 162.4,
+          "p95": 162.4,
+          "p99": 162.4,
+          "p999": 162.4
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 33,
+          "max": 160,
+          "count": 14,
+          "mean": 117.9,
+          "p50": 113.3,
+          "median": 113.3,
+          "p75": 141.2,
+          "p90": 147,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 33,
+          "max": 160,
+          "count": 14,
+          "mean": 117.9,
+          "p50": 113.3,
+          "median": 113.3,
+          "p75": 141.2,
+          "p90": 147,
+          "p95": 159.2,
+          "p99": 159.2,
+          "p999": 159.2
+        },
+        "vusers.session_length": {
+          "min": 48.5,
+          "max": 165,
+          "count": 14,
+          "mean": 124.2,
+          "p50": 120.3,
+          "median": 120.3,
+          "p75": 141.2,
+          "p90": 162.4,
+          "p95": 162.4,
+          "p99": 162.4,
+          "p999": 162.4
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 28,
+        "vusers.created": 28,
+        "http.requests": 28,
+        "http.codes.200": 28,
+        "http.responses": 28,
+        "http.downloaded_bytes": 504,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 28,
+        "vusers.failed": 0,
+        "vusers.completed": 28
+      },
+      "rates": {
+        "http.request_rate": 3
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793420397,
+      "firstHistogramAt": 1713793420518,
+      "lastCounterAt": 1713793429711,
+      "lastHistogramAt": 1713793429711,
+      "firstMetricAt": 1713793420397,
+      "lastMetricAt": 1713793429711,
+      "period": "1713793420000",
+      "summaries": {
+        "http.response_time": {
+          "min": 92,
+          "max": 198,
+          "count": 28,
+          "mean": 142.7,
+          "p50": 149.9,
+          "median": 149.9,
+          "p75": 162.4,
+          "p90": 179.5,
+          "p95": 186.8,
+          "p99": 186.8,
+          "p999": 186.8
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 92,
+          "max": 198,
+          "count": 28,
+          "mean": 142.7,
+          "p50": 149.9,
+          "median": 149.9,
+          "p75": 162.4,
+          "p90": 179.5,
+          "p95": 186.8,
+          "p99": 186.8,
+          "p999": 186.8
+        },
+        "vusers.session_length": {
+          "min": 94.3,
+          "max": 200.1,
+          "count": 28,
+          "mean": 146.9,
+          "p50": 153,
+          "median": 153,
+          "p75": 165.7,
+          "p90": 190.6,
+          "p95": 190.6,
+          "p99": 194.4,
+          "p999": 194.4
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 92,
+          "max": 198,
+          "count": 28,
+          "mean": 142.7,
+          "p50": 149.9,
+          "median": 149.9,
+          "p75": 162.4,
+          "p90": 179.5,
+          "p95": 186.8,
+          "p99": 186.8,
+          "p999": 186.8
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 92,
+          "max": 198,
+          "count": 28,
+          "mean": 142.7,
+          "p50": 149.9,
+          "median": 149.9,
+          "p75": 162.4,
+          "p90": 179.5,
+          "p95": 186.8,
+          "p99": 186.8,
+          "p999": 186.8
+        },
+        "vusers.session_length": {
+          "min": 94.3,
+          "max": 200.1,
+          "count": 28,
+          "mean": 146.9,
+          "p50": 153,
+          "median": 153,
+          "p75": 165.7,
+          "p90": 190.6,
+          "p95": 190.6,
+          "p99": 194.4,
+          "p999": 194.4
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 43,
+        "vusers.created": 43,
+        "http.requests": 43,
+        "http.codes.200": 43,
+        "http.responses": 43,
+        "http.downloaded_bytes": 774,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 43,
+        "vusers.failed": 0,
+        "vusers.completed": 43
+      },
+      "rates": {
+        "http.request_rate": 6
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793430405,
+      "firstHistogramAt": 1713793430526,
+      "lastCounterAt": 1713793439895,
+      "lastHistogramAt": 1713793439895,
+      "firstMetricAt": 1713793430405,
+      "lastMetricAt": 1713793439895,
+      "period": "1713793430000",
+      "summaries": {
+        "http.response_time": {
+          "min": 107,
+          "max": 275,
+          "count": 43,
+          "mean": 184.4,
+          "p50": 194.4,
+          "median": 194.4,
+          "p75": 232.8,
+          "p90": 242.3,
+          "p95": 252.2,
+          "p99": 267.8,
+          "p999": 267.8
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 107,
+          "max": 275,
+          "count": 43,
+          "mean": 184.4,
+          "p50": 194.4,
+          "median": 194.4,
+          "p75": 232.8,
+          "p90": 242.3,
+          "p95": 252.2,
+          "p99": 267.8,
+          "p999": 267.8
+        },
+        "vusers.session_length": {
+          "min": 109.4,
+          "max": 285.7,
+          "count": 43,
+          "mean": 187.7,
+          "p50": 194.4,
+          "median": 194.4,
+          "p75": 237.5,
+          "p90": 247.2,
+          "p95": 257.3,
+          "p99": 278.7,
+          "p999": 278.7
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 107,
+          "max": 275,
+          "count": 43,
+          "mean": 184.4,
+          "p50": 194.4,
+          "median": 194.4,
+          "p75": 232.8,
+          "p90": 242.3,
+          "p95": 252.2,
+          "p99": 267.8,
+          "p999": 267.8
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 107,
+          "max": 275,
+          "count": 43,
+          "mean": 184.4,
+          "p50": 194.4,
+          "median": 194.4,
+          "p75": 232.8,
+          "p90": 242.3,
+          "p95": 252.2,
+          "p99": 267.8,
+          "p999": 267.8
+        },
+        "vusers.session_length": {
+          "min": 109.4,
+          "max": 285.7,
+          "count": 43,
+          "mean": 187.7,
+          "p50": 194.4,
+          "median": 194.4,
+          "p75": 237.5,
+          "p90": 247.2,
+          "p95": 257.3,
+          "p99": 278.7,
+          "p999": 278.7
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 53,
+        "vusers.created": 53,
+        "http.requests": 53,
+        "http.codes.200": 53,
+        "http.responses": 53,
+        "http.downloaded_bytes": 954,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 53,
+        "vusers.failed": 0,
+        "vusers.completed": 53
+      },
+      "rates": {
+        "http.request_rate": 7
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793440420,
+      "firstHistogramAt": 1713793440516,
+      "lastCounterAt": 1713793449995,
+      "lastHistogramAt": 1713793449995,
+      "firstMetricAt": 1713793440420,
+      "lastMetricAt": 1713793449995,
+      "period": "1713793440000",
+      "summaries": {
+        "http.response_time": {
+          "min": 95,
+          "max": 334,
+          "count": 53,
+          "mean": 204.1,
+          "p50": 206.5,
+          "median": 206.5,
+          "p75": 257.3,
+          "p90": 278.7,
+          "p95": 295.9,
+          "p99": 314.2,
+          "p999": 314.2
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 95,
+          "max": 334,
+          "count": 53,
+          "mean": 204.1,
+          "p50": 206.5,
+          "median": 206.5,
+          "p75": 257.3,
+          "p90": 278.7,
+          "p95": 295.9,
+          "p99": 314.2,
+          "p999": 314.2
+        },
+        "vusers.session_length": {
+          "min": 95.8,
+          "max": 348.8,
+          "count": 53,
+          "mean": 207,
+          "p50": 206.5,
+          "median": 206.5,
+          "p75": 257.3,
+          "p90": 278.7,
+          "p95": 295.9,
+          "p99": 314.2,
+          "p999": 314.2
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 95,
+          "max": 334,
+          "count": 53,
+          "mean": 204.1,
+          "p50": 206.5,
+          "median": 206.5,
+          "p75": 257.3,
+          "p90": 278.7,
+          "p95": 295.9,
+          "p99": 314.2,
+          "p999": 314.2
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 95,
+          "max": 334,
+          "count": 53,
+          "mean": 204.1,
+          "p50": 206.5,
+          "median": 206.5,
+          "p75": 257.3,
+          "p90": 278.7,
+          "p95": 295.9,
+          "p99": 314.2,
+          "p999": 314.2
+        },
+        "vusers.session_length": {
+          "min": 95.8,
+          "max": 348.8,
+          "count": 53,
+          "mean": 207,
+          "p50": 206.5,
+          "median": 206.5,
+          "p75": 257.3,
+          "p90": 278.7,
+          "p95": 295.9,
+          "p99": 314.2,
+          "p999": 314.2
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 61,
+        "vusers.created": 61,
+        "http.requests": 61,
+        "http.codes.200": 59,
+        "http.responses": 59,
+        "http.downloaded_bytes": 1062,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 59,
+        "vusers.failed": 0,
+        "vusers.completed": 59
+      },
+      "rates": {
+        "http.request_rate": 7
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793450431,
+      "firstHistogramAt": 1713793450571,
+      "lastCounterAt": 1713793459933,
+      "lastHistogramAt": 1713793459933,
+      "firstMetricAt": 1713793450431,
+      "lastMetricAt": 1713793459933,
+      "period": "1713793450000",
+      "summaries": {
+        "http.response_time": {
+          "min": 128,
+          "max": 351,
+          "count": 59,
+          "mean": 240.4,
+          "p50": 232.8,
+          "median": 232.8,
+          "p75": 295.9,
+          "p90": 333.7,
+          "p95": 340.4,
+          "p99": 347.3,
+          "p999": 347.3
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 128,
+          "max": 351,
+          "count": 59,
+          "mean": 240.4,
+          "p50": 232.8,
+          "median": 232.8,
+          "p75": 295.9,
+          "p90": 333.7,
+          "p95": 340.4,
+          "p99": 347.3,
+          "p999": 347.3
+        },
+        "vusers.session_length": {
+          "min": 137.1,
+          "max": 353.1,
+          "count": 59,
+          "mean": 243.6,
+          "p50": 232.8,
+          "median": 232.8,
+          "p75": 295.9,
+          "p90": 340.4,
+          "p95": 347.3,
+          "p99": 347.3,
+          "p999": 347.3
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 128,
+          "max": 351,
+          "count": 59,
+          "mean": 240.4,
+          "p50": 232.8,
+          "median": 232.8,
+          "p75": 295.9,
+          "p90": 333.7,
+          "p95": 340.4,
+          "p99": 347.3,
+          "p999": 347.3
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 128,
+          "max": 351,
+          "count": 59,
+          "mean": 240.4,
+          "p50": 232.8,
+          "median": 232.8,
+          "p75": 295.9,
+          "p90": 333.7,
+          "p95": 340.4,
+          "p99": 347.3,
+          "p999": 347.3
+        },
+        "vusers.session_length": {
+          "min": 137.1,
+          "max": 353.1,
+          "count": 59,
+          "mean": 243.6,
+          "p50": 232.8,
+          "median": 232.8,
+          "p75": 295.9,
+          "p90": 340.4,
+          "p95": 347.3,
+          "p99": 347.3,
+          "p999": 347.3
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 70,
+        "vusers.created": 70,
+        "http.requests": 70,
+        "http.codes.200": 70,
+        "http.responses": 70,
+        "http.downloaded_bytes": 1260,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 70,
+        "vusers.failed": 0,
+        "vusers.completed": 70
+      },
+      "rates": {
+        "http.request_rate": 7
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793460024,
+      "firstHistogramAt": 1713793460024,
+      "lastCounterAt": 1713793469938,
+      "lastHistogramAt": 1713793469938,
+      "firstMetricAt": 1713793460024,
+      "lastMetricAt": 1713793469938,
+      "period": "1713793460000",
+      "summaries": {
+        "http.response_time": {
+          "min": 104,
+          "max": 406,
+          "count": 70,
+          "mean": 257.9,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 327.1,
+          "p90": 368.8,
+          "p95": 376.2,
+          "p99": 399.5,
+          "p999": 399.5
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 104,
+          "max": 406,
+          "count": 70,
+          "mean": 257.9,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 327.1,
+          "p90": 368.8,
+          "p95": 376.2,
+          "p99": 399.5,
+          "p999": 399.5
+        },
+        "vusers.session_length": {
+          "min": 107.3,
+          "max": 408.7,
+          "count": 70,
+          "mean": 260.6,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 327.1,
+          "p90": 368.8,
+          "p95": 383.8,
+          "p99": 399.5,
+          "p999": 399.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 104,
+          "max": 406,
+          "count": 70,
+          "mean": 257.9,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 327.1,
+          "p90": 368.8,
+          "p95": 376.2,
+          "p99": 399.5,
+          "p999": 399.5
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 104,
+          "max": 406,
+          "count": 70,
+          "mean": 257.9,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 327.1,
+          "p90": 368.8,
+          "p95": 376.2,
+          "p99": 399.5,
+          "p999": 399.5
+        },
+        "vusers.session_length": {
+          "min": 107.3,
+          "max": 408.7,
+          "count": 70,
+          "mean": 260.6,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 327.1,
+          "p90": 368.8,
+          "p95": 383.8,
+          "p99": 399.5,
+          "p999": 399.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 80,
+        "vusers.created": 80,
+        "http.requests": 80,
+        "http.codes.200": 79,
+        "http.responses": 79,
+        "http.downloaded_bytes": 1422,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 79,
+        "vusers.failed": 0,
+        "vusers.completed": 79
+      },
+      "rates": {
+        "http.request_rate": 8
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793470029,
+      "firstHistogramAt": 1713793470029,
+      "lastCounterAt": 1713793479961,
+      "lastHistogramAt": 1713793479961,
+      "firstMetricAt": 1713793470029,
+      "lastMetricAt": 1713793479961,
+      "period": "1713793470000",
+      "summaries": {
+        "http.response_time": {
+          "min": 103,
+          "max": 399,
+          "count": 79,
+          "mean": 258.6,
+          "p50": 262.5,
+          "median": 262.5,
+          "p75": 314.2,
+          "p90": 376.2,
+          "p95": 383.8,
+          "p99": 391.6,
+          "p999": 391.6
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 103,
+          "max": 399,
+          "count": 79,
+          "mean": 258.6,
+          "p50": 262.5,
+          "median": 262.5,
+          "p75": 314.2,
+          "p90": 376.2,
+          "p95": 383.8,
+          "p99": 391.6,
+          "p999": 391.6
+        },
+        "vusers.session_length": {
+          "min": 105.9,
+          "max": 400.1,
+          "count": 79,
+          "mean": 260.6,
+          "p50": 262.5,
+          "median": 262.5,
+          "p75": 314.2,
+          "p90": 376.2,
+          "p95": 383.8,
+          "p99": 391.6,
+          "p999": 391.6
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 103,
+          "max": 399,
+          "count": 79,
+          "mean": 258.6,
+          "p50": 262.5,
+          "median": 262.5,
+          "p75": 314.2,
+          "p90": 376.2,
+          "p95": 383.8,
+          "p99": 391.6,
+          "p999": 391.6
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 103,
+          "max": 399,
+          "count": 79,
+          "mean": 258.6,
+          "p50": 262.5,
+          "median": 262.5,
+          "p75": 314.2,
+          "p90": 376.2,
+          "p95": 383.8,
+          "p99": 391.6,
+          "p999": 391.6
+        },
+        "vusers.session_length": {
+          "min": 105.9,
+          "max": 400.1,
+          "count": 79,
+          "mean": 260.6,
+          "p50": 262.5,
+          "median": 262.5,
+          "p75": 314.2,
+          "p90": 376.2,
+          "p95": 383.8,
+          "p99": 391.6,
+          "p999": 391.6
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 87,
+        "http.responses": 87,
+        "http.downloaded_bytes": 1566,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 87,
+        "vusers.failed": 0,
+        "vusers.completed": 87,
+        "vusers.created_by_name.0": 88,
+        "vusers.created": 88,
+        "http.requests": 88
+      },
+      "rates": {
+        "http.request_rate": 9
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793480050,
+      "firstHistogramAt": 1713793480050,
+      "lastCounterAt": 1713793489997,
+      "lastHistogramAt": 1713793489956,
+      "firstMetricAt": 1713793480050,
+      "lastMetricAt": 1713793489997,
+      "period": "1713793480000",
+      "summaries": {
+        "http.response_time": {
+          "min": 97,
+          "max": 401,
+          "count": 87,
+          "mean": 254.9,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 301.9,
+          "p90": 361.5,
+          "p95": 368.8,
+          "p99": 399.5,
+          "p999": 399.5
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 97,
+          "max": 401,
+          "count": 87,
+          "mean": 254.9,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 301.9,
+          "p90": 361.5,
+          "p95": 368.8,
+          "p99": 399.5,
+          "p999": 399.5
+        },
+        "vusers.session_length": {
+          "min": 99.3,
+          "max": 402,
+          "count": 87,
+          "mean": 256.6,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 308,
+          "p90": 361.5,
+          "p95": 376.2,
+          "p99": 399.5,
+          "p999": 399.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 97,
+          "max": 401,
+          "count": 87,
+          "mean": 254.9,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 301.9,
+          "p90": 361.5,
+          "p95": 368.8,
+          "p99": 399.5,
+          "p999": 399.5
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 97,
+          "max": 401,
+          "count": 87,
+          "mean": 254.9,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 301.9,
+          "p90": 361.5,
+          "p95": 368.8,
+          "p99": 399.5,
+          "p999": 399.5
+        },
+        "vusers.session_length": {
+          "min": 99.3,
+          "max": 402,
+          "count": 87,
+          "mean": 256.6,
+          "p50": 267.8,
+          "median": 267.8,
+          "p75": 308,
+          "p90": 361.5,
+          "p95": 376.2,
+          "p99": 399.5,
+          "p999": 399.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 95,
+        "http.responses": 95,
+        "http.downloaded_bytes": 1710,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 95,
+        "vusers.failed": 0,
+        "vusers.completed": 95,
+        "vusers.created_by_name.0": 94,
+        "vusers.created": 94,
+        "http.requests": 94
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793490048,
+      "firstHistogramAt": 1713793490048,
+      "lastCounterAt": 1713793499969,
+      "lastHistogramAt": 1713793499939,
+      "firstMetricAt": 1713793490048,
+      "lastMetricAt": 1713793499969,
+      "period": "1713793490000",
+      "summaries": {
+        "http.response_time": {
+          "min": 91,
+          "max": 391,
+          "count": 95,
+          "mean": 250.5,
+          "p50": 257.3,
+          "median": 257.3,
+          "p75": 301.9,
+          "p90": 347.3,
+          "p95": 368.8,
+          "p99": 383.8,
+          "p999": 383.8
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 91,
+          "max": 391,
+          "count": 95,
+          "mean": 250.5,
+          "p50": 257.3,
+          "median": 257.3,
+          "p75": 301.9,
+          "p90": 347.3,
+          "p95": 368.8,
+          "p99": 383.8,
+          "p999": 383.8
+        },
+        "vusers.session_length": {
+          "min": 92.8,
+          "max": 392.3,
+          "count": 95,
+          "mean": 251.9,
+          "p50": 262.5,
+          "median": 262.5,
+          "p75": 308,
+          "p90": 347.3,
+          "p95": 368.8,
+          "p99": 383.8,
+          "p999": 383.8
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 91,
+          "max": 391,
+          "count": 95,
+          "mean": 250.5,
+          "p50": 257.3,
+          "median": 257.3,
+          "p75": 301.9,
+          "p90": 347.3,
+          "p95": 368.8,
+          "p99": 383.8,
+          "p999": 383.8
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 91,
+          "max": 391,
+          "count": 95,
+          "mean": 250.5,
+          "p50": 257.3,
+          "median": 257.3,
+          "p75": 301.9,
+          "p90": 347.3,
+          "p95": 368.8,
+          "p99": 383.8,
+          "p999": 383.8
+        },
+        "vusers.session_length": {
+          "min": 92.8,
+          "max": 392.3,
+          "count": 95,
+          "mean": 251.9,
+          "p50": 262.5,
+          "median": 262.5,
+          "p75": 308,
+          "p90": 347.3,
+          "p95": 368.8,
+          "p99": 383.8,
+          "p999": 383.8
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 107,
+        "http.responses": 107,
+        "http.downloaded_bytes": 1926,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 107,
+        "vusers.failed": 0,
+        "vusers.completed": 107,
+        "vusers.created_by_name.0": 112,
+        "vusers.created": 112,
+        "http.requests": 112
+      },
+      "rates": {
+        "http.request_rate": 12
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793500001,
+      "firstHistogramAt": 1713793500029,
+      "lastCounterAt": 1713793509974,
+      "lastHistogramAt": 1713793509946,
+      "firstMetricAt": 1713793500001,
+      "lastMetricAt": 1713793509974,
+      "period": "1713793500000",
+      "summaries": {
+        "http.response_time": {
+          "min": 94,
+          "max": 730,
+          "count": 107,
+          "mean": 340.6,
+          "p50": 327.1,
+          "median": 327.1,
+          "p75": 399.5,
+          "p90": 528.6,
+          "p95": 596,
+          "p99": 658.6,
+          "p999": 685.5
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 94,
+          "max": 730,
+          "count": 107,
+          "mean": 340.6,
+          "p50": 327.1,
+          "median": 327.1,
+          "p75": 399.5,
+          "p90": 528.6,
+          "p95": 596,
+          "p99": 658.6,
+          "p999": 685.5
+        },
+        "vusers.session_length": {
+          "min": 95.2,
+          "max": 731.1,
+          "count": 107,
+          "mean": 341.8,
+          "p50": 327.1,
+          "median": 327.1,
+          "p75": 399.5,
+          "p90": 528.6,
+          "p95": 596,
+          "p99": 658.6,
+          "p999": 685.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 94,
+          "max": 730,
+          "count": 107,
+          "mean": 340.6,
+          "p50": 327.1,
+          "median": 327.1,
+          "p75": 399.5,
+          "p90": 528.6,
+          "p95": 596,
+          "p99": 658.6,
+          "p999": 685.5
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 94,
+          "max": 730,
+          "count": 107,
+          "mean": 340.6,
+          "p50": 327.1,
+          "median": 327.1,
+          "p75": 399.5,
+          "p90": 528.6,
+          "p95": 596,
+          "p99": 658.6,
+          "p999": 685.5
+        },
+        "vusers.session_length": {
+          "min": 95.2,
+          "max": 731.1,
+          "count": 107,
+          "mean": 341.8,
+          "p50": 327.1,
+          "median": 327.1,
+          "p75": 399.5,
+          "p90": 528.6,
+          "p95": 596,
+          "p99": 658.6,
+          "p999": 685.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 110,
+        "http.responses": 110,
+        "http.downloaded_bytes": 1980,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 110,
+        "vusers.failed": 0,
+        "vusers.completed": 110,
+        "vusers.created_by_name.0": 146,
+        "vusers.created": 146,
+        "http.requests": 146
+      },
+      "rates": {
+        "http.request_rate": 15
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793510002,
+      "firstHistogramAt": 1713793510036,
+      "lastCounterAt": 1713793519932,
+      "lastHistogramAt": 1713793519932,
+      "firstMetricAt": 1713793510002,
+      "lastMetricAt": 1713793519932,
+      "period": "1713793510000",
+      "summaries": {
+        "http.response_time": {
+          "min": 560,
+          "max": 2784,
+          "count": 110,
+          "mean": 1601.3,
+          "p50": 1525.7,
+          "median": 1525.7,
+          "p75": 2101.1,
+          "p90": 2515.5,
+          "p95": 2671,
+          "p99": 2725,
+          "p999": 2725
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 560,
+          "max": 2784,
+          "count": 110,
+          "mean": 1601.3,
+          "p50": 1525.7,
+          "median": 1525.7,
+          "p75": 2101.1,
+          "p90": 2515.5,
+          "p95": 2671,
+          "p99": 2725,
+          "p999": 2725
+        },
+        "vusers.session_length": {
+          "min": 561.1,
+          "max": 2785.4,
+          "count": 110,
+          "mean": 1602.5,
+          "p50": 1525.7,
+          "median": 1525.7,
+          "p75": 2101.1,
+          "p90": 2515.5,
+          "p95": 2671,
+          "p99": 2725,
+          "p999": 2780
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 560,
+          "max": 2784,
+          "count": 110,
+          "mean": 1601.3,
+          "p50": 1525.7,
+          "median": 1525.7,
+          "p75": 2101.1,
+          "p90": 2515.5,
+          "p95": 2671,
+          "p99": 2725,
+          "p999": 2725
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 560,
+          "max": 2784,
+          "count": 110,
+          "mean": 1601.3,
+          "p50": 1525.7,
+          "median": 1525.7,
+          "p75": 2101.1,
+          "p90": 2515.5,
+          "p95": 2671,
+          "p99": 2725,
+          "p999": 2725
+        },
+        "vusers.session_length": {
+          "min": 561.1,
+          "max": 2785.4,
+          "count": 110,
+          "mean": 1602.5,
+          "p50": 1525.7,
+          "median": 1525.7,
+          "p75": 2101.1,
+          "p90": 2515.5,
+          "p95": 2671,
+          "p99": 2725,
+          "p999": 2780
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 180,
+        "vusers.created": 180,
+        "http.requests": 180,
+        "http.codes.200": 111,
+        "http.responses": 111,
+        "http.downloaded_bytes": 1998,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 111,
+        "vusers.failed": 0,
+        "vusers.completed": 111
+      },
+      "rates": {
+        "http.request_rate": 18
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793520023,
+      "firstHistogramAt": 1713793520023,
+      "lastCounterAt": 1713793529981,
+      "lastHistogramAt": 1713793529981,
+      "firstMetricAt": 1713793520023,
+      "lastMetricAt": 1713793529981,
+      "period": "1713793520000",
+      "summaries": {
+        "http.response_time": {
+          "min": 2818,
+          "max": 6133,
+          "count": 111,
+          "mean": 4389.4,
+          "p50": 4316.6,
+          "median": 4316.6,
+          "p75": 5168,
+          "p90": 5711.5,
+          "p95": 5944.6,
+          "p99": 6064.7,
+          "p999": 6064.7
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 2818,
+          "max": 6133,
+          "count": 111,
+          "mean": 4389.4,
+          "p50": 4316.6,
+          "median": 4316.6,
+          "p75": 5168,
+          "p90": 5711.5,
+          "p95": 5944.6,
+          "p99": 6064.7,
+          "p999": 6064.7
+        },
+        "vusers.session_length": {
+          "min": 2818.9,
+          "max": 6135.1,
+          "count": 111,
+          "mean": 4390.6,
+          "p50": 4316.6,
+          "median": 4316.6,
+          "p75": 5168,
+          "p90": 5711.5,
+          "p95": 5944.6,
+          "p99": 6064.7,
+          "p999": 6064.7
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 2818,
+          "max": 6133,
+          "count": 111,
+          "mean": 4389.4,
+          "p50": 4316.6,
+          "median": 4316.6,
+          "p75": 5168,
+          "p90": 5711.5,
+          "p95": 5944.6,
+          "p99": 6064.7,
+          "p999": 6064.7
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 2818,
+          "max": 6133,
+          "count": 111,
+          "mean": 4389.4,
+          "p50": 4316.6,
+          "median": 4316.6,
+          "p75": 5168,
+          "p90": 5711.5,
+          "p95": 5944.6,
+          "p99": 6064.7,
+          "p999": 6064.7
+        },
+        "vusers.session_length": {
+          "min": 2818.9,
+          "max": 6135.1,
+          "count": 111,
+          "mean": 4390.6,
+          "p50": 4316.6,
+          "median": 4316.6,
+          "p75": 5168,
+          "p90": 5711.5,
+          "p95": 5944.6,
+          "p99": 6064.7,
+          "p999": 6064.7
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 216,
+        "vusers.created": 216,
+        "http.requests": 216,
+        "http.codes.200": 105,
+        "http.responses": 105,
+        "http.downloaded_bytes": 1890,
+        "plugins.metrics-by-endpoint./fibo-recur.codes.200": 105,
+        "vusers.failed": 8,
+        "vusers.completed": 105,
+        "plugins.metrics-by-endpoint./fibo-recur.errors.ETIMEDOUT": 8,
+        "errors.ETIMEDOUT": 8
+      },
+      "rates": {
+        "http.request_rate": 22
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793530009,
+      "firstHistogramAt": 1713793530072,
+      "lastCounterAt": 1713793539990,
+      "lastHistogramAt": 1713793539542,
+      "firstMetricAt": 1713793530009,
+      "lastMetricAt": 1713793539990,
+      "period": "1713793530000",
+      "summaries": {
+        "http.response_time": {
+          "min": 6105,
+          "max": 9975,
+          "count": 105,
+          "mean": 8027.5,
+          "p50": 8024.5,
+          "median": 8024.5,
+          "p75": 8868.4,
+          "p90": 9607.1,
+          "p95": 9801.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 6105,
+          "max": 9975,
+          "count": 105,
+          "mean": 8027.5,
+          "p50": 8024.5,
+          "median": 8024.5,
+          "p75": 8868.4,
+          "p90": 9607.1,
+          "p95": 9801.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        },
+        "vusers.session_length": {
+          "min": 6106.2,
+          "max": 9976.8,
+          "count": 105,
+          "mean": 8028.5,
+          "p50": 8024.5,
+          "median": 8024.5,
+          "p75": 8868.4,
+          "p90": 9607.1,
+          "p95": 9801.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 6105,
+          "max": 9975,
+          "count": 105,
+          "mean": 8027.5,
+          "p50": 8024.5,
+          "median": 8024.5,
+          "p75": 8868.4,
+          "p90": 9607.1,
+          "p95": 9801.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        },
+        "plugins.metrics-by-endpoint.response_time./fibo-recur": {
+          "min": 6105,
+          "max": 9975,
+          "count": 105,
+          "mean": 8027.5,
+          "p50": 8024.5,
+          "median": 8024.5,
+          "p75": 8868.4,
+          "p90": 9607.1,
+          "p95": 9801.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        },
+        "vusers.session_length": {
+          "min": 6106.2,
+          "max": 9976.8,
+          "count": 105,
+          "mean": 8028.5,
+          "p50": 8024.5,
+          "median": 8024.5,
+          "p75": 8868.4,
+          "p90": 9607.1,
+          "p95": 9801.2,
+          "p99": 9999.2,
+          "p999": 9999.2
+        }
+      }
+    },
+    {
+      "counters": {
+        "plugins.metrics-by-endpoint./fibo-recur.errors.ETIMEDOUT": 216,
+        "errors.ETIMEDOUT": 216,
+        "vusers.failed": 216,
+        "vusers.created_by_name.0": 250,
+        "vusers.created": 250,
+        "http.requests": 250
+      },
+      "rates": {
+        "http.request_rate": 25
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793540010,
+      "lastCounterAt": 1713793549998,
+      "firstMetricAt": 1713793540010,
+      "lastMetricAt": 1713793549998,
+      "period": "1713793540000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "plugins.metrics-by-endpoint./fibo-recur.errors.ETIMEDOUT": 250,
+        "errors.ETIMEDOUT": 250,
+        "vusers.failed": 250,
+        "vusers.created_by_name.0": 283,
+        "vusers.created": 283,
+        "http.requests": 283
+      },
+      "rates": {
+        "http.request_rate": 29
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793550019,
+      "lastCounterAt": 1713793559999,
+      "firstMetricAt": 1713793550019,
+      "lastMetricAt": 1713793559999,
+      "period": "1713793550000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.0": 22,
+        "vusers.created": 22,
+        "http.requests": 22,
+        "plugins.metrics-by-endpoint./fibo-recur.errors.ETIMEDOUT": 282,
+        "errors.ETIMEDOUT": 282,
+        "vusers.failed": 282
+      },
+      "rates": {
+        "http.request_rate": 22
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1713793560031,
+      "lastCounterAt": 1713793569949,
+      "firstMetricAt": 1713793560031,
+      "lastMetricAt": 1713793569949,
+      "period": "1713793560000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "plugins.metrics-by-endpoint./fibo-recur.errors.ETIMEDOUT": 23,
+        "errors.ETIMEDOUT": 23,
+        "vusers.failed": 23
+      },
+      "rates": {},
+      "firstCounterAt": 1713793570004,
+      "lastCounterAt": 1713793570788,
+      "firstMetricAt": 1713793570004,
+      "lastMetricAt": 1713793570788,
+      "period": "1713793570000",
+      "summaries": {},
+      "histograms": {}
+    }
+  ]
+}
