@@ -19,5 +19,23 @@ services:
     environment:
       PORT: 8080
 
+  performance-test:
+    container_name: performance_demo_tester
+    build:
+      context: ../
+      dockerfile: ./docker/tester/Dockerfile
+    networks:
+      - performance-demo-net
+    environment:
+      PORT: 8080
+      FIBONACCI_SEQUENCE_NUMBER: 33
+    stdin_open: true
+    tty: true
+    depends_on:
+      server:
+        condition: service_healthy
+    volumes:
+      - ../performance_tests:/app
+
 networks:
   performance-demo-net:
